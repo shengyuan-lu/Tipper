@@ -17,6 +17,7 @@ class MainViewController: UIViewController {
     var custom:Double? = nil
     let currency = "$"
     
+    // IBActions
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
         save()
