@@ -33,6 +33,8 @@ Here's a walkthrough of implemented user stories:
 
 https://i.imgur.com/eDPa0vG.gif
 
+Backup link: https://imgur.com/a/jN9107z
+
 GIF created with [ezgif](https://ezgif.com/video-to-gif).
 
 ## Notes
