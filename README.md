@@ -24,9 +24,9 @@ The following **additional** features are implemented:
 
 - [x] The user can set a custom tip percentage
 - [x] The user can set a default tip percentage by tapping the settings and the app will remember it.
-- [x] Dark mode and light mode enabled
+- [x] The app has both Dark mode and light mode
 - [x] The app can be used on different screen sizes and orientations
-- [x] The app has an icon
+- [x] The app has an icon designed using Sketch
 
 ## Video Walkthrough
 
