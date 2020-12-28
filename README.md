@@ -23,6 +23,8 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] The user can set a custom tip percentage
+- [x] Dark mode and light mode enabled
+- [x] The app can be used on different screen sizes and orientations
 
 ## Video Walkthrough
 
