@@ -60,6 +60,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setDoneOnKeyboard()
+        
         currencySign.text = currency
         
         let previousBill = retrievalBill()
