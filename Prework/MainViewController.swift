@@ -81,6 +81,19 @@ class MainViewController: UIViewController {
         
     }
     
+    func setDoneOnKeyboard() {
+        let keyboardToolbar = UIToolbar()
+        keyboardToolbar.sizeToFit()
+        let flexBarButton = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        let doneBarButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(donePressed))
+        keyboardToolbar.items = [flexBarButton, doneBarButton]
+        self.billField.inputAccessoryView = keyboardToolbar
+    }
+
+    @objc func donePressed() {
+        view.endEditing(true)
+    }
+    
     
     func updateNum() {
         
