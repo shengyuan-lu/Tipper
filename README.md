@@ -31,11 +31,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src='https://i.imgur.com/nJjTnfe.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Backup link: https://imgur.com/a/jN9107z
-
-GIF created with [ezgif](https://ezgif.com/video-to-gif).
+<img src='https://i.imgur.com/jN9107z.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
