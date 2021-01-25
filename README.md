@@ -34,6 +34,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/eDPa0vG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+https://i.imgur.com/eDPa0vG.gif
+
 ## Notes
 
 I am very new to iOS development and I don't have a lot of coding experience. I spent a lot of time just reading the iOS developer documentation. The first challenge I encountered is the display layout. I self-taught auto layout so my app will work on different screen sizes as well as the landscape. Another challenge I encountered is the communication pattern. I self-taught protocol and delegates to pass data between different view controllers. Protocol and delegates are very confusing so I started a side project just to figure this out. The third challenge is to implement user defaults and deal with options, but these are not as difficult. Developer documentation and swift.org really helps me to learn the new language.
