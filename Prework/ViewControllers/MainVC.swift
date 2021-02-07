@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
     var custom:Double? = nil
     let currency = "$"
     
-    // IBActions
+    // When the screen is tapped, end editing (tap gesture recognizer)
     @IBAction func onTap(_ sender: Any) {
         view.endEditing(true)
         save()
@@ -33,7 +33,6 @@ class MainViewController: UIViewController {
                 
                 showDetailViewController(customVC, sender: nil)
             }
-            
         }
         
         if percentageSelector.selectedSegmentIndex != 3 {
@@ -43,9 +42,7 @@ class MainViewController: UIViewController {
             custom = nil
             
             view.endEditing(true)
-            
         }
-        
         save()
     }
     
@@ -66,7 +63,7 @@ class MainViewController: UIViewController {
         
         let previousBill = retrievalBill()
         let settingsIndex = retrievalSetting()
-
+        
         percentageSelector.selectedSegmentIndex = settingsIndex
         
         if previousBill != 0 {
@@ -91,14 +88,13 @@ class MainViewController: UIViewController {
         keyboardToolbar.items = [flexBarButton, doneBarButton]
         self.billField.inputAccessoryView = keyboardToolbar
     }
-
+    
     @objc func donePressed() {
         view.endEditing(true)
     }
     
     
     func updateNum() {
-        
         // Get the bill amount
         let bill = Double(billField.text!) ?? 0
         billLabel.text = String(format: "\(currency)%.2f", bill)
@@ -114,17 +110,12 @@ class MainViewController: UIViewController {
         let percentageText = " (\(Int(percentage * 100))%)"
         tipLabel.text = String(format: "\(currency)%.2f", tip) + percentageText
         totalLabel.text = String(format: "\(currency)%.2f", total)
-        
     }
     
     func save() {
-        
         let bill = Double(billField.text!) ?? 0
-        
         let now = Date()
-        
         memory.setValue([bill, now], forKey: "Bill")
-        
     }
     
     func retrievalBill() -> Double {
@@ -177,10 +168,7 @@ class MainViewController: UIViewController {
             
             showDetailViewController(settingVC, sender: nil)
         }
-        
     }
-    
-    
 }
 
 extension MainViewController: sendData {
@@ -200,17 +188,8 @@ extension MainViewController: sendData {
 }
 
 extension MainViewController: settings {
-    
-    
     func percentageSetting(indexNum: Int) {
-        
         memory.setValue(indexNum, forKey: "selectedIndex")
-        
-        
-        
-        
     }
-    
-    
 }
 
