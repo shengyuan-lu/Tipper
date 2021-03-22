@@ -17,4 +17,4 @@ The following functionality is implemented:
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src="[img]https://i.imgur.com/9fwkmnt.gif" width=500><br>
+<img src="https://i.imgur.com/9fwkmnt.gif" width=500><br>
