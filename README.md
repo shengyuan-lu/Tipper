@@ -1,5 +1,5 @@
 # Tipper
-Tipper is a tip calculator application for iOS.
+Tipper is a tip calculator for iOS.
 
 ## User Stories
 The following functionality is implemented:
@@ -17,4 +17,4 @@ The following functionality is implemented:
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
 
-<img src="https://i.imgur.com/eDPa0vG.gif" width=500><br>
+<img src="[img]https://i.imgur.com/9fwkmnt.gif" width=500><br>
